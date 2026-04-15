@@ -159,6 +159,7 @@ function InputBox() {
   return (
     <div>
       <input
+      value={name}
         type="text"
         placeholder="Enter your name"
         onChange={(e) => setName(e.target.value)}
